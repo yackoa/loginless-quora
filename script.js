@@ -1,5 +1,6 @@
 /*
-just append the url and reload it 
+The main script checks for login.
+if user isn't logged in then, it do the magic to remove the quora sign in block
 */
 
 
