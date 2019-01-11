@@ -3,6 +3,8 @@ html, body {
   padding: 0;
   margin: 0;
   font-family: sans-serif;
+  border-radius: 3px;
+  overflow: hidden;
 }
 
 .header-section{
@@ -29,14 +31,16 @@ html, body {
 }
 
 .header-section a{
-  color: white;
+  /* color: white; */
   font-family: fantasy;
   text-decoration: none;
+  color: #fbfbde;
 }
 .header-section p{
   margin: 10px;
   font-size: 14px;
   line-height: 1;
+  color: #fbfbde;
 }
 
 .share{
@@ -56,7 +60,8 @@ a.common-share-button {
   text-transform: capitalize;
   font-size: 14px;
   color: #444;
+  background: #fff;
 }
 a.common-share-button:hover{
-  background: #ddd;
+  background: rgba(50, 249, 179, 0.13);
 }
