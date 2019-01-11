@@ -63,5 +63,6 @@ a.common-share-button {
   background: #fff;
 }
 a.common-share-button:hover{
-  background: rgba(50, 249, 179, 0.13);
+  /* background: rgba(50, 249, 179, 0.13); */
+  background: #f2f2f2;
 }
