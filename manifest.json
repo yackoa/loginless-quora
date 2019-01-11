@@ -10,11 +10,21 @@
     "48": "icons/explore-48.png"
   },
 
+  "browser_action": {
+    "default_icon": "icons/electric-7.png",
+    "default_title": "Quora without login",
+    "default_popup": "popup/reveal.html"
+  },
+
   "content_scripts": [
     {
       "matches": ["*://www.quora.com/*"],
       "js": ["script.js"]
     }
+  ],
+
+    "web_accessible_resources": [
+    "icons/twitter-15.png"
   ]
 
 }
