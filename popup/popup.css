@@ -1,88 +1,62 @@
 html, body {
-  width: 100px;
+  /* width: 100px; */
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
 }
 
-.hidden {
-  display: none;
-}
-
-.button {
-  margin: 3% auto;
-  padding: 4px;
+.header-section{
+  background: #0f51a7;
+  border-bottom: #bebebe;
   text-align: center;
-  font-size: 1.5em;
+  color: white;
+  padding: 10px;
+}
+
+.heading{
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  justify-content: center;
+  margin: 0;
+  margin-bottom: 15px;
+  font-weight: 300;
+  font-family: monospace;
+}
+.heading img{
+  height: 24px;
+  margin-left: 10px;
+}
+
+.header-section a{
+  color: white;
+  font-family: fantasy;
+  text-decoration: none;
+}
+.header-section p{
+  margin: 10px;
+  font-size: 14px;
+  line-height: 1;
+}
+
+.share{
+  min-width: 250px;
+}
+.share img{
+  margin-right: 15px;
+  width: 30px;
+}
+a.common-share-button {
+  padding: .5em 1em;
+  display: flex;
+  align-items: center;
   cursor: pointer;
+  transition: all linear .2s;
+  text-decoration: none;
+  text-transform: capitalize;
+  font-size: 14px;
+  color: #444;
 }
-
-.beast:hover {
-  background-color: #CFF2F2;
+a.common-share-button:hover{
+  background: #ddd;
 }
-
-.beast {
-  background-color: #E5F2F2;
-}
-
-.reset {
-  background-color: #FBFBC9;
-}
-
-.reset:hover {
-  background-color: #EAEA9D;
-}
-
-          .btn.share-btn {
-              border: medium none;
-              box-shadow: 0 2px 0 0 rgba(0, 0, 0, 0.2);
-              color: #fff;
-              cursor: pointer;
-              display: inline-block;
-              font-size: 1.2em;
-              margin-top: 6px;
-              opacity: 0.9;
-              outline: medium none;
-              padding: 8px 16px;
-          }
-
-            .share-btn {
-                display: inline-block;
-                color: #ffffff;
-                border: none;
-                padding: 0.5em;
-                width: 4em;
-                opacity: 0.9;
-                box-shadow: 0 2px 0 0 rgba(0,0,0,0.2);
-                outline: none;
-                text-align: center;
-            }
-
-            .share-btn:hover,
-            .share-btn:focus {
-              color: #eeeeee;
-            }
-
-            .share-btn:active {
-              position: relative;
-              top: 2px;
-              box-shadow: none;
-              color: #e2e2e2;
-              opacity: 1;
-              outline: medium none;
-              position: relative;
-              top: 2px;
-          }
-
-          .twitter {
-              background: #55acee none repeat scroll 0 0;
-              background-image: url(icons/twitter-15.png);
-              display: block;
-          }
-          .facebook {
-              background: #3b5998 none repeat scroll 0 0;
-          }
-
-          .reddit {
-              background: #ff5700 none repeat scroll 0 0;
-          }
-          .linkedin {
-              background: #4875b4 none repeat scroll 0 0;
-          }
