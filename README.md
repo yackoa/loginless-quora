@@ -9,5 +9,5 @@ What does the add-on do once installed  ?
 Thanks a ton to [@syam1123](https://github.com/syam1123) for breathing new life into the CSS of the popup!
 
 ## published on Browser addon stores
-* [Chrome add-on](https://chrome.google.com/webstore/detail/ooledigpfjcpgjjojmenonlcalmhhfbl/publish-accepted?authuser=1)
+* [Chrome add-on](https://chrome.google.com/webstore/detail/loginless-quora/ooledigpfjcpgjjojmenonlcalmhhfbl)
 * [Firefox add-on](https://addons.mozilla.org/en-GB/firefox/addon/use-quora-without-login/)
