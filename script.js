@@ -9,10 +9,8 @@ var oSerializer = new XMLSerializer();
 var sXML = oSerializer.serializeToString(document);
 var userLoggedIn = sXML.includes('<span class="expanded">Notifications');
 
-//console.log(n)
-//console.log(typeof n);
 
-if (!userLoggedIn){
+if (!(userLoggedIn || url == "https://www.quora.com/")){
 	if (url.indexOf('?') > -1){
    	window.stop()
 	}else{
