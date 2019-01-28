@@ -1,6 +1,11 @@
 # loginless-quora
 This is a lightwieight firefox/chrome addon to view answers on quora without signing in. 
 
+## Demo
+
+[![Demo Doccou alpha](https://j.gifs.com/4QmqG2.gif)](https://www.youtube.com/watch?v=PfoFY8owjn4)
+
+
 What does the add-on do once installed  ?
 * removes the annoying signup popup if the user is logged in
 * Incase the user is logged in it does nothing
