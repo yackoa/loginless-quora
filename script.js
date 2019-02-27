@@ -8,9 +8,9 @@ var url = window.location.href;
 var oSerializer = new XMLSerializer();
 var sXML = oSerializer.serializeToString(document);
 var userLoggedIn = sXML.includes('<span class="expanded">Notifications');
+var homePage = "https://www.quora.com/"
 
-
-if (!(userLoggedIn || url == "https://www.quora.com/")){
+if (!(userLoggedIn || url == homePage)){
 	if (url.indexOf('?') > -1){
    	window.stop()
 	}else{
