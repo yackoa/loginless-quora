@@ -1,6 +1,8 @@
 # loginless-quora
 This is a lightwieight firefox/chrome addon to view answers on quora without signing in. 
 
+The reason for creating this was to make a add-on which doesn't have any spyware while enabling browsing quora answers without a sign in session.
+
 ## Demo
 
 [![Demo Doccou alpha](https://j.gifs.com/4QmqG2.gif)](https://www.youtube.com/watch?v=PfoFY8owjn4)
