@@ -16,5 +16,6 @@ What does the add-on do once installed  ?
 Thanks a ton to [@syam1123](https://github.com/syam1123) for breathing new life into the CSS of the popup!
 
 ## published on Browser addon stores
-* [Chrome add-on](https://chrome.google.com/webstore/detail/loginless-quora/ooledigpfjcpgjjojmenonlcalmhhfbl)
+* [Chrome add-on](https://chrome.google.com/webstore/detail/loginless-quora/ooledigpfjcpgjjojmenonlcalmhhfbl) 
+  * The Chrome add-on is currently broken as Quora's lawyers decided that the name of the add-on infringes on their copyright. 
 * [Firefox add-on](https://addons.mozilla.org/en-GB/firefox/addon/use-quora-without-login/)
